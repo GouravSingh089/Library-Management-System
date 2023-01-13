@@ -1,0 +1,202 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Mar, 2022, 1:47:36 AM
+    Author     : Gourav
+*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.gridContainer1{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 100px;
+    
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+     /*border: 2px solid red;*/
+}
+
+.gridContainer1 i{
+    display: block;
+    /* border: 2px solid red; */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+
+.grid1 h3{
+    display: block;
+    text-align: center;
+/*     border: 2px solid red;*/
+}
+
+.grid1 h2{
+    display: block;
+    text-align: center;
+}
+
+.grid1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 168, 68);
+    margin: 80px auto;
+    padding: 30px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 13px;
+    box-shadow: 4px 4px 5px black;
+    transition: all ease-in-out 0.4s;
+    width: 80%;
+    /*border: 2px solid red;*/
+    height: 17vh;
+}
+
+.grid1:hover{
+    background-image: linear-gradient(35deg, rgba(217, 255, 157, 0.301)40%, rgba(255, 255, 255, 0.8) 90%);
+    
+    color: rgb(255, 121, 44);
+    font-size: 1.2rem;
+}
+
+.quicklinks{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 100px;
+    width: 5%;
+
+    background-color: rgba(157, 255, 255, 0.5);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255); ;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+hr{
+    border: 2px dashed rgb(252, 255, 68);
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.gridContainer2{
+    display: grid;
+    margin: 30px auto;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 100px;
+    width: 100%;
+    height: 45vh;
+    justify-content: center;
+    /*border: 2px solid red;*/
+}
+
+
+.gridContainer2 i{
+    
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gridContainer2 a{
+    color: rgb(64, 255, 121);
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    transition: all ease-in-out 0.4s;
+    
+}
+
+.gridContainer2 a:hover{
+    color: rgb(45, 252, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bolder;
+    text-shadow: 15px 10px 3px rgb(95, 95, 95);
+}
+
+.grid2{
+    margin: 100px auto;
+    padding: 40px;
+    /* border: 2px solid red; */
+    border-radius: 13px;
+    
+    width: 80%;
+    height: 15vh;
+    box-shadow: 4px 4px 5px black;
+    transition: all ease-in-out 0.4s;
+}
+
+.grid2:hover{
+    border-left:2px solid rgba(190, 190, 190, 0.507);
+    border-top: 2px solid rgba(201, 201, 201, 0.63);
+    box-shadow: 15px 15px 3px rgb(95, 95, 95);
+}
+
+/*.footer{
+    
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 5vh;
+    padding-top: 10px;
+}
+
+.footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background: black;
+   color: white;
+   text-align: center;
+}
+
+
+.footer i{
+  padding-right: 4px;
+  color: white;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}*/
+
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a0a0a08a; 
+    border-radius: 100px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(180deg, #797979 30%, #8ee0eb 70%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #8ee0eb 0%, #797979 99%); 
+  }

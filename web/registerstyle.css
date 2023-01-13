@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+body{
+    /* background-image: url('img/signup-bg.jpg'); */
+    background-image: linear-gradient(90deg, #ffffff8f 10%, #a4eaff62 70%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    
+    
+}
+
+#signup-form{
+    display: flex;
+    margin: 50px auto;
+    width: 65vw;
+    height: 70vh;
+    /* padding: 20px; */
+    align-items: center;
+    border-radius: 26px;
+    /* border: 2px solid rgb(36, 36, 36); */
+    box-shadow: 3px 3px 28px rgb(31, 31, 31);
+}
+
+
+#left-box{
+    margin: 20px;
+    display: flex;
+    width: 60%;
+    height: 65vh;
+    background-image: url('img/signup-thumbnail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 23px;
+
+}
+
+.form-group{
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 5px rgb(160, 160, 160);
+    padding-bottom: 10px;
+    padding-top: 5px;
+    position: relative;
+}
+
+#signup-button{
+    width: 8vw;
+    height: 28px;
+    padding: 4px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#signin{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    transition: all ease-in-out 0.3s;
+}
+
+#signin:hover{
+    color: rgb(252, 21, 21);
+    font-size: large;
+    /* text-shadow: 1px 1px 1px rgb(255, 255, 255); */
+}
+
+#right-box{
+    padding-left: 10px;
+    /* border: 2px solid red; */
+    width: 40%;
+    font-size: larger;
+    text-align: center;
+}
+
+input{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-width: 0px 0px 1px 0px;
+    margin-top: 5px;
+    text-align: center;
+    width: 15vw;
+    height: 18px;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.registerConfirm{
+    display: flex;
+    margin-top: 30px;
+    height: 6vh;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+.formGroupTitle{
+    width: 100%;
+    /* padding-top: 10px; */
+    text-align: center;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
