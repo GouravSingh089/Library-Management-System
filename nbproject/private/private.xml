@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/addIssue.java</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/loginServlet.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/dashboard.css</file>
+            <file>file:/F:/Java%20Projects/LMS/web/issuedBooks.css</file>
+            <file>file:/F:/Java%20Projects/LMS/web/addIssue.css</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/dao/BooksDao.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/books.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/dao/RegisterDao.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/dashboard.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/web/homestyle.css</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/dao/IssueDao.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/addIssue.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/addBooks.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/issueByBookPage.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/deleteReturn.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/dashboardNav.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/web/issueHistory.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/web/returnedBooks.css</file>
+            <file>file:/F:/Java%20Projects/LMS/web/addBooks.css</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/connection/mysqlConnection.java</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/deleteBooks.java</file>
+            <file>file:/F:/Java%20Projects/LMS/web/addBooks.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/web/index.jsp</file>
+            <file>file:/F:/Java%20Projects/LMS/src/java/lms/controller/addStudents.java</file>
+        </group>
+    </open-files>
+</project-private>

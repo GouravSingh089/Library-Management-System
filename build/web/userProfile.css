@@ -1,0 +1,179 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Apr, 2022, 10:42:11 PM
+    Author     : Gourav
+*/
+
+.formContainer{
+    width: 50%;
+    /* height: 100vh; */
+    font-size: 1.5rem;
+    margin: 80px auto;
+    /* border: 2px solid red; */
+    padding: 30px;
+    border-radius: 13px;
+    box-shadow: 3px 3px 10px black;
+    height: fit-content;
+    background-image: linear-gradient(25deg, #ff858591 40%, #fb8bff44 70%);
+      box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  }
+  
+  .formGroup{
+    
+    display: flex;
+    width: 100%;
+    /* text-align: right; */
+    padding: 10px;
+  }
+  
+form i{
+    width: 100%;
+    margin-bottom: 20px;
+    /* border: 2px solid red; */
+    /* margin: 10px auto; */
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+  .formGroupTitle{
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .bookAdded{
+    margin: 10px 0px 20px 0px;
+  width: 100%;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: #26b900;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  .bookFailed{
+    margin: 10px 0px 20px 0px;
+  width: 100%;
+  /* border: 2px solid red; */
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .formGroupText{
+    
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+  }
+  
+  
+ 
+  
+  .formContainer input{
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+    border: none;
+    padding: 2px 10px 2px 10px;
+    font-size: 1.2rem;
+    width: 50%;
+    margin-left: 20px;
+    outline: none;
+    background-image: linear-gradient(90deg, rgba(177, 255, 245, 0.2) 40%, #ffffff2c 70%);
+  }
+  
+  .formButton{
+    /* width: 100%; */
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 10px ;
+  }
+  
+  .formButton input {
+    color: #000000;
+    padding: 8px 12px 8px 12px;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    font-weight: bold;
+    width: 15%;
+    background-image: linear-gradient(25deg, #ff525291 40%, #fa64ff44 70%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+  }
+  
+  .formButton input:hover {
+    color: #000000;
+    background-image: linear-gradient(25deg, #ff5252cb 40%, #fb8bffa7 70%);
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    box-shadow: 2px 2px 10px black;
+    width: 20%;
+  }
+  
+  
+  
+  
+  
+  ::-webkit-scrollbar {
+      width: 9px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #a0a0a08a; 
+      border-radius: 100px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background-image: linear-gradient(180deg, #dcff89 30%, #ffca85 70%);
+      box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+      border-radius: 100px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg, #868686 0%, #666666 99%); 
+    }
+  
+    
+    .bookAdded{
+  margin: 10px 0px 20px 0px;
+width: 100%;
+/* border: 2px solid red; */
+text-align: center;
+color: #26b900;
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.bookFailed{
+  margin: 10px 0px 20px 0px;
+width: 100%;
+/* border: 2px solid red; */
+text-align: center;
+color: rgb(255, 0, 0);
+font-size: 2rem;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+}
+   

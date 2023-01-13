@@ -1,0 +1,252 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Mar, 2022, 1:49:29 AM
+    Author     : Gourav
+*/
+
+
+
+.gridContainer2{
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: 300px;
+  grid-gap: 100px;
+  width: 40%;
+  height: 40vh;
+  justify-content: center;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+
+.grid2{
+  
+  margin: 80px auto;
+  margin-bottom: 50px;
+  padding: 40px;
+  /* border: 2px solid red; */
+  border-radius: 13px;
+  width: 70%;
+  height: 10vh;
+  box-shadow: 4px 4px 5px black;
+  transition: all ease-in-out 0.4s;
+}
+
+.grid2:hover{
+
+margin: 80px auto;
+margin-bottom: 50px;
+padding: 40px;
+/* border: 2px solid red; */
+border-radius: 13px;
+border-left:2px solid rgba(190, 190, 190, 0.507);
+border-top: 2px solid rgba(201, 201, 201, 0.63);
+box-shadow: 9px 9px 3px rgb(95, 95, 95);
+width: 73%;
+height: 12vh;
+}
+
+.gridContainer2 i{
+  display: block;
+  /* border: 2px solid red; */
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.gridContainer2 a{
+color: rgb(154, 255, 60);
+font-size: 1.1em;
+font-weight: bolder;
+text-decoration: none;
+font-weight: bolder;
+text-shadow: 0.5px 0.5px 0.5px rgb(0, 0, 0);
+transition: all ease-in-out 0.3s;
+
+}
+
+.gridContainer2 a:hover{
+color: rgb(117, 245, 67);
+font-size: 1.3rem;
+text-decoration: none;
+font-weight: bolder;
+text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.issueSuccess{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: greenyellow;
+}
+
+.issueFail{
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: red;
+}
+
+
+/* .footer{
+  position: relative;
+  top: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: black;
+  height: 5vh;
+  padding-top: 10px;
+}
+
+.footer i{
+  padding-right: 4px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+} */
+
+/*.footer{
+position:absolute;
+bottom: 0px;
+height: 40px;
+width : 100%;
+color: white;
+padding-top: 10px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.footer i{
+padding-right: 4px;
+color: white;
+}
+
+.footer a{
+color: white;
+text-decoration: none;
+}*/
+
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a0a0a08a; 
+  border-radius: 100px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #dcff89 30%, #ffca85 70%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #868686 0%, #666666 99%); 
+}
+
+
+/* search books  */
+.searchBar{
+    /*display: flex;*/
+  font-size: 1.3rem;
+  height: 4vh;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: 60px;*/
+   /*border: 2px solid red;*/ 
+}
+
+.searchBar  input{
+    display: inline-block;
+  margin: 0px 5px 0px 5px;
+  border:2px solid #b3ff00;
+  border-radius: 5px;
+  padding: 0px 10px 0px 20px;
+  font-size: 1.1rem;
+  width: 50%;
+  
+}
+
+.searchBar button{
+padding: 3px 10px 2px 10px;
+font-size: 1.1rem;
+width: 50px;
+border-radius: 4px;
+background-color: rgb(102, 199, 255);
+border: none;
+}
+
+.searchBar button:hover{
+background-color: rgb(59, 183, 255);
+box-shadow: 1px 1px 3px black;
+border: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+  margin: 20px auto;
+}
+
+th{
+background-image: linear-gradient(180deg, rgb(157, 255, 255, 0.2)0%, rgb(157, 255, 255, 0.8) 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #9fff8c31 ;
+}
+
+table a{
+  text-decoration: none;
+  color: black;
+  /* border: 2px solid red; */
+}
+
+#delete{
+  margin: 0px 3px 0px 3px;
+  padding: 4px 8px 4px 8px;
+  background-color: rgba(255, 46, 46, 0.39);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 8px;
+}
+
+#delete:hover{
+  box-shadow: 1px 1px 4px black;
+  background-color: rgba(255, 46, 46, 0.527);
+}
+
+#return{
+  margin: 0px 3px 0px 3px;
+  padding: 4px 8px 4px 8px;
+  background-color: rgba(197, 255, 122, 0.39);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 8px;
+}
+
+#return:hover{
+  box-shadow: 1px 1px 4px black;
+  background-color: rgba(167, 255, 53, 0.493);
+}
